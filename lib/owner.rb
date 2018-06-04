@@ -45,4 +45,11 @@ class Owner
     self.pets[:dogs].mood = "happy"
   end
 
+  def sell_pets
+  end
+
+  def list_pets
+    
+  end
+
 end
