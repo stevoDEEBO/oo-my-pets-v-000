@@ -46,8 +46,8 @@ class Owner
   end
 
   def sell_pets
-    pets.clear
     pets.mood = "nervous"
+    pets.clear
   end
 
   def list_pets
