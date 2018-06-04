@@ -46,12 +46,12 @@ class Owner
   end
 
   def sell_pets
-    @pets = {:fishes => [], :dogs => [], :cats => []}
-    @pets.mood = "nervous"
+    pets = {:fishes => [], :dogs => [], :cats => []}
+    pets.mood = "nervous"
   end
 
   def list_pets
-    "I have #{@pets[:fishes].length} fish, #{@pets[:dogs].length} dog(s), and #{@pets[:cats].length} cat(s)."
+    "I have #{pets[:fishes].length} fish, #{pets[:dogs].length} dog(s), and #{pets[:cats].length} cat(s)."
   end
 
 end
