@@ -47,6 +47,7 @@ class Owner
 
   def sell_pets
     @pets = {:fishes => [], :dogs => [], :cats => []}
+    @pets.mood = "nervous"
   end
 
   def list_pets
